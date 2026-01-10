@@ -1,0 +1,10 @@
+{
+  "/birds/page": "app/birds/page.js",
+  "/page": "app/page.js",
+  "/finches/page": "app/finches/page.js",
+  "/hens/page": "app/hens/page.js",
+  "/medicine/page": "app/medicine/page.js",
+  "/qa/page": "app/qa/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/not-found": "app/not-found.js"
+}
