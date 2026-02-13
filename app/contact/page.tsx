@@ -1,5 +1,7 @@
 'use client'
 
+import { CONTACT_INFO } from '../constants/config'
+
 const safeOpen = (url: string) => {
   const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
   if (newWindow) newWindow.opener = null
@@ -7,15 +9,15 @@ const safeOpen = (url: string) => {
 
 export default function Contact() {
   const handleWhatsApp = () => {
-    safeOpen('https://wa.me/923124653858')
+    safeOpen(CONTACT_INFO.WHATSAPP_URL)
   }
 
   const handleEmail = () => {
-    safeOpen('mailto:coderhacks912@gmail.com')
+    safeOpen(`mailto:${CONTACT_INFO.EMAIL}`)
   }
 
   const handlePhone = () => {
-    safeOpen('tel:+923124653858')
+    safeOpen(`tel:${CONTACT_INFO.PHONE}`)
   }
 
   return (
@@ -25,18 +27,18 @@ export default function Contact() {
       <div className="card-grid">
         <div className="card contact-card">
           <h3>📧 Email Us</h3>
-          <p><strong>Email:</strong> coderhacks912@gmail.com</p>
+          <p><strong>Email:</strong> {CONTACT_INFO.EMAIL}</p>
           <p>Send us your bird care questions, feedback, or suggestions. We'll get back to you as soon as possible!</p>
-          <button onClick={handleEmail} className="contact-btn email-btn" aria-label="Send email to coderhacks912@gmail.com">
+          <button onClick={handleEmail} className="contact-btn email-btn" aria-label={`Send email to ${CONTACT_INFO.EMAIL}`}>
             📧 Send Email
           </button>
         </div>
 
         <div className="card contact-card">
           <h3>📱 Call Us</h3>
-          <p><strong>Phone:</strong> +92 312 4653858</p>
+          <p><strong>Phone:</strong> {CONTACT_INFO.PHONE_DISPLAY}</p>
           <p>Call us directly for urgent bird care questions or immediate assistance with your feathered friends.</p>
-          <button onClick={handlePhone} className="contact-btn phone-btn" aria-label="Call +92 312 4653858">
+          <button onClick={handlePhone} className="contact-btn phone-btn" aria-label={`Call ${CONTACT_INFO.PHONE_DISPLAY}`}>
             📞 Call Now
           </button>
         </div>
@@ -45,18 +47,18 @@ export default function Contact() {
       <div className="card-grid">
         <div className="card contact-card whatsapp-card">
           <h3>💬 WhatsApp</h3>
-          <p><strong>WhatsApp:</strong> +92 312 4653858</p>
+          <p><strong>WhatsApp:</strong> {CONTACT_INFO.PHONE_DISPLAY}</p>
           <p>Get instant support via WhatsApp! Send us photos of your birds, ask questions, and get quick responses.</p>
-          <button onClick={handleWhatsApp} className="contact-btn whatsapp-btn" aria-label="Chat on WhatsApp +92 312 4653858">
+          <button onClick={handleWhatsApp} className="contact-btn whatsapp-btn" aria-label={`Chat on WhatsApp ${CONTACT_INFO.PHONE_DISPLAY}`}>
             💬 Chat on WhatsApp
           </button>
         </div>
 
         <div className="card contact-card">
           <h3>🕒 Support Hours</h3>
-          <p><strong>Monday - Friday:</strong> 9:00 AM - 6:00 PM</p>
-          <p><strong>Saturday:</strong> 10:00 AM - 4:00 PM</p>
-          <p><strong>Sunday:</strong> Emergency support only</p>
+          <p><strong>Monday - Friday:</strong> {CONTACT_INFO.SUPPORT_HOURS.WEEKDAY}</p>
+          <p><strong>Saturday:</strong> {CONTACT_INFO.SUPPORT_HOURS.SATURDAY}</p>
+          <p><strong>Sunday:</strong> {CONTACT_INFO.SUPPORT_HOURS.SUNDAY}</p>
           <p>We're here to help with all your bird care needs during business hours.</p>
         </div>
       </div>

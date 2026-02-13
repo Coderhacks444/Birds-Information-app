@@ -1,0 +1,155 @@
+{
+  "fever": {
+    "bird": {
+      "title": "Common Treatments Used by Vets for Birds with Fever",
+      "medicines": ["Panadol Syrup", "Flagyl Syrup", "Brophen Syrup"],
+      "care": ["Keep the bird warm and in a quiet, stress-free environment", "Provide fresh water and high-quality food", "Monitor breathing and activity closely", "Contact an avian veterinarian for proper diagnosis and dosage"]
+    },
+    "finch": {
+      "title": "Common Treatments Used by Vets for Finches with Fever",
+      "medicines": ["Panadol Syrup", "Flagyl Syrup", "Brophen Syrup"],
+      "care": ["Move to a small hospital cage in a warm, quiet room (26-29°C)", "Keep away from drafts and other birds", "Provide fresh water and high-quality finch seed mix", "Monitor breathing, droppings, and activity closely", "Contact an avian veterinarian immediately"]
+    },
+    "hen": {
+      "title": "Common Treatments Used by Vets for Hens with Fever",
+      "medicines": ["Panadol Syrup", "Flagyl Syrup", "Brophen Syrup"],
+      "care": ["Isolate the hen in a clean, dry, draft-free pen with deep bedding", "Check the comb and wattles, breathing, and mobility", "Give plenty of fresh water", "Offer a good layer feed and limit heavy treats", "Contact a poultry veterinarian within 24 hours"]
+    }
+  },
+  "weakness": {
+    "bird": {
+      "title": "Common Treatments Used by Vets for Weak Birds",
+      "medicines": ["Jetpurp Syrup", "Hepmarz Syrup", "Oxafax Dewormer", "Rexia"],
+      "care": ["Place in a warm, quiet hospital cage", "Offer soft foods and fresh water", "Minimize stress and activity", "Consult an avian veterinarian immediately"]
+    },
+    "finch": {
+      "title": "Common Treatments Used by Vets for Weak Finches",
+      "medicines": ["Jetpurp Syrup", "Hepmarz Syrup", "Oxafax Dewormer", "Life Line Herbal Grit", "Rexia"],
+      "care": ["Place in a warm, quiet hospital cage", "Offer soft foods and fresh water", "Minimize stress and activity", "Consult an avian veterinarian immediately"]
+    },
+    "hen": {
+      "title": "Common Treatments Used by Vets for Weak Hens",
+      "medicines": ["Jetpurp Syrup", "Hepmarz Syrup", "Life Line Herbal Grit", "Rexia"],
+      "care": ["Isolate in a clean, dry pen", "Provide fresh water and nutritious feed", "Minimize stress and activity", "Consult a poultry veterinarian immediately"]
+    }
+  },
+  "lethargy": {
+    "bird": {
+      "title": "Common Treatments Used by Vets for Lethargic Birds",
+      "medicines": ["Vadline L Syrup", "Symans Vitamin & Electrolytes", "Symostress"],
+      "care": ["Ensure proper temperature (75-80°F)", "Provide nutritious food and clean water", "Reduce environmental stress", "Seek veterinary evaluation"]
+    },
+    "finch": {
+      "title": "Common Treatments Used by Vets for Lethargic Finches",
+      "medicines": ["Vadline L Syrup", "Symans Vitamin & Electrolytes", "Symostress", "Seven Seas Cod Liver Oil"],
+      "care": ["Ensure proper temperature (24-26°C)", "Provide nutritious finch food and clean water", "Reduce environmental stress", "Seek veterinary evaluation"]
+    },
+    "hen": {
+      "title": "Common Treatments Used by Vets for Lethargic Hens",
+      "medicines": ["Vadline L Syrup", "Symans Vitamin & Electrolytes", "Symostress"],
+      "care": ["Ensure proper temperature and ventilation", "Provide nutritious feed and clean water", "Reduce environmental stress", "Seek veterinary evaluation"]
+    }
+  },
+  "breeding": {
+    "bird": {
+      "title": "Common Treatments Used by Vets for Birds Not Breeding",
+      "medicines": ["Vitasol Super", "Vital Grow", "Mailiq Ca+D3", "Imunotone Plus", "True Mineral Block"],
+      "care": ["Ensure proper diet with calcium and minerals", "Provide 12-14 hours of light daily", "Maintain optimal temperature", "Consult an avian veterinarian for breeding advice"]
+    },
+    "finch": {
+      "title": "Common Treatments Used by Vets for Finches Not Breeding",
+      "medicines": ["Vitsol", "Vital Grow", "NEKTON E", "Moringa Leaf Powder", "Seven Seas Cod Liver Oil"],
+      "care": ["Ensure proper diet with calcium and minerals", "Provide 12-14 hours of light daily", "Maintain optimal temperature (24-26°C)", "Consult an avian veterinarian for breeding advice"]
+    },
+    "hen": {
+      "title": "Common Treatments Used by Vets for Hens Not Breeding",
+      "medicines": ["Vitsol", "Vital Grow", "Symostress", "NEKTON E", "Moringa Leaf Powder"],
+      "care": ["Ensure proper diet with calcium and minerals", "Provide 14-16 hours of light daily", "Maintain optimal temperature", "Consult a poultry veterinarian for breeding advice"]
+    }
+  },
+  "digestion": {
+    "bird": {
+      "title": "Common Treatments Used by Vets for Digestive Issues in Birds",
+      "medicines": ["Flagyl Syrup", "Lasowit", "Apple vinegar"],
+      "care": ["Offer easily digestible foods", "Provide fresh water at all times", "Keep the bird warm and stress-free", "Monitor droppings for changes", "Contact an avian veterinarian"]
+    },
+    "finch": {
+      "title": "Common Treatments Used by Vets for Digestive Issues in Finches",
+      "medicines": ["Flagyl Syrup", "Lasowit", "Apple Vinegar with Vegetables", "Life Line Herbal Grit"],
+      "care": ["Offer easily digestible foods", "Provide fresh water at all times", "Keep the finch warm and stress-free", "Monitor droppings for changes", "Contact an avian veterinarian"]
+    },
+    "hen": {
+      "title": "Common Treatments Used by Vets for Digestive Issues in Hens",
+      "medicines": ["Flagyl Syrup", "Lasowit", "Apple vinegar"],
+      "care": ["Offer easily digestible foods", "Provide fresh water at all times", "Keep the hen warm and stress-free", "Monitor droppings for changes", "Contact a poultry veterinarian"]
+    }
+  },
+  "viral": {
+    "bird": {
+      "title": "Common Treatments Used by Vets for Viral Infections in Birds",
+      "medicines": ["Telforsin", "Enrosol S", "Tetracycline", "Teylodox", "Enrosym"],
+      "care": ["Isolate the bird from other birds", "Maintain warm, clean environment", "Provide supportive care and nutrition", "Follow veterinary dosage instructions carefully", "Contact an avian veterinarian immediately"]
+    },
+    "finch": {
+      "title": "Common Treatments Used by Vets for Viral Infections in Finches",
+      "medicines": ["Telforsin", "Enrosol S", "Tetracycline", "Teylodox", "Enrosym"],
+      "care": ["Isolate the finch from other birds", "Maintain warm, clean environment", "Provide supportive care and nutrition", "Follow veterinary dosage instructions carefully", "Contact an avian veterinarian immediately"]
+    },
+    "hen": {
+      "title": "Common Treatments Used by Vets for Viral Infections in Hens",
+      "medicines": ["Telforsin", "Enrosol S", "Tetracycline", "Teylodox", "Enrosym"],
+      "care": ["Isolate the hen from other birds", "Maintain warm, clean environment", "Provide supportive care and nutrition", "Follow veterinary dosage instructions carefully", "Contact a poultry veterinarian immediately"]
+    }
+  },
+  "stress": {
+    "bird": {
+      "title": "Common Treatments Used by Vets for Stressed Birds",
+      "medicines": ["Symans Vitamin & Electrolytes", "Symdecks", "Symostress"],
+      "care": ["Reduce noise and sudden changes", "Provide a secure, comfortable cage", "Maintain consistent daily routine", "Offer favorite foods and toys", "Minimize handling during stress periods"]
+    },
+    "finch": {
+      "title": "Common Treatments Used by Vets for Stressed Finches",
+      "medicines": ["Symo Stress", "Symdecks", "Moringa Leaf Powder"],
+      "care": ["Reduce noise and sudden changes", "Provide a secure, comfortable cage", "Maintain consistent daily routine", "Offer favorite foods and seeds", "Minimize handling during stress periods"]
+    },
+    "hen": {
+      "title": "Common Treatments Used by Vets for Stressed Hens",
+      "medicines": ["Symdecks", "Symostress", "Moringa Leaf Powder"],
+      "care": ["Reduce noise and sudden changes", "Provide a secure, comfortable coop", "Maintain consistent daily routine", "Offer favorite foods and treats", "Minimize handling during stress periods"]
+    }
+  },
+  "mites": {
+    "bird": {
+      "title": "Common Treatments Used by Vets for Mites in Birds",
+      "medicines": ["Virkon S", "Ticks Killer", "Dettol Water Spray", "Seguvan Powder"],
+      "care": ["Clean and disinfect the entire cage", "Replace bedding and perches", "Isolate affected bird from others", "Spray cage with Dettol water solution", "Consult a veterinarian for proper treatment"]
+    },
+    "finch": {
+      "title": "Common Treatments Used by Vets for Mites in Finches",
+      "medicines": ["Virkon S", "Ticks Killer", "Dettol Water Spray", "Seguvan Powder"],
+      "care": ["Clean and disinfect the entire cage", "Replace bedding and perches", "Isolate affected finch from others", "Spray cage with Dettol water solution", "Consult a veterinarian for proper treatment"]
+    },
+    "hen": {
+      "title": "Common Treatments Used by Vets for Mites in Hens",
+      "medicines": ["Virkon S", "Ticks Killer", "Dettol Water Spray", "Seguvan Powder"],
+      "care": ["Clean and disinfect the entire coop", "Replace bedding and perches", "Isolate affected hen from others", "Spray coop with Dettol water solution", "Consult a veterinarian for proper treatment"]
+    }
+  },
+  "bleeding": {
+    "bird": {
+      "title": "Emergency Treatment for Bleeding Birds",
+      "medicines": ["Hydrogen Peroxide (3%)", "Styptic Powder", "Vitamin K Injection", "Calcium Gluconate"],
+      "care": ["EMERGENCY: Stop bleeding immediately with styptic powder or cornstarch", "Apply gentle pressure with clean cloth", "Isolate in warm, quiet hospital cage", "Avoid stress and handling", "Contact an avian veterinarian IMMEDIATELY - bleeding is life-threatening"]
+    },
+    "finch": {
+      "title": "Emergency Treatment for Bleeding Finches",
+      "medicines": ["Hydrogen Peroxide (3%)", "Styptic Powder", "Vitamin K Injection", "Calcium Gluconate"],
+      "care": ["EMERGENCY: Stop bleeding immediately with styptic powder or cornstarch", "Apply gentle pressure with clean cloth", "Isolate in warm, quiet hospital cage (26-29°C)", "Avoid stress and handling", "Contact an avian veterinarian IMMEDIATELY - bleeding is life-threatening"]
+    },
+    "hen": {
+      "title": "Emergency Treatment for Bleeding Hens",
+      "medicines": ["Hydrogen Peroxide (3%)", "Styptic Powder", "Vitamin K Injection", "Calcium Gluconate"],
+      "care": ["EMERGENCY: Stop bleeding immediately with styptic powder or cornstarch", "Apply gentle pressure with clean cloth", "Isolate in clean, dry pen with deep bedding", "Avoid stress and handling", "Contact a poultry veterinarian IMMEDIATELY - bleeding is life-threatening"]
+    }
+  }
+}
