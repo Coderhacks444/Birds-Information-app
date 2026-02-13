@@ -11,7 +11,8 @@ const SYMPTOM_KEYWORDS: Record<SymptomKey, string[]> = {
   digestion: ['digest', 'diarrhea', 'diarrhoea', 'droppings', 'constipation', 'stomach', 'gut', 'not digesting'],
   viral: ['viral', 'virus', 'infection', 'infected', 'disease', 'sick', 'ill'],
   stress: ['stress', 'anxious', 'nervous', 'agitated', 'uneasy', 'restless'],
-  mites: ['mite', 'parasite', 'lice', 'tick', 'infestation', 'mange']
+  mites: ['mite', 'parasite', 'lice', 'tick', 'infestation', 'mange'],
+  bleeding: ['bleeding', 'bleed', 'blood', 'hemorrhage', 'wound', 'injury', 'cut']
 }
 
 const BIRD_TYPE_KEYWORDS: Record<BirdType, string[]> = {
